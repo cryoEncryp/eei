@@ -30,18 +30,30 @@ $events = [
             "active" => TRUE,
             "cancelled" => FALSE,
             "course_required" => TRUE,
-            "food" => TRUE,
-            "breakfast" => TRUE,
+            "food" => FALSE,
+            "breakfast" => FALSE,
             "path" => "{$fp}ersti-huette.csv",
             "icon" => "beer",
-            "location" => 'TBA',
-            "date" => '07.10.22 17:00',
+            "location" => 'Rewe Weststadt <br> Schleifmühleweg 36',
+            "date" => '07.10.22 14:15',
             "uts" => mktime('18', '0', '0', '10', '07', '2022'),
             "max_participants" => 60,
             "registration_override" => FALSE,
             "end_of_registration" => FALSE,
             "text" => "Kastenlauf",
-            "info" => "",
+            "info" => "Die Ersti Wanderung<br>
+            Eine Wanderung durch den Schönbuch und den umliegenden Wäldern Tübingens.
+            Melde dich mit deinen Daten unten an, um genaue Informationen zu Treffpunkt und deiner Gruppe zu bekommen.",
+            "info" => "Der Kastenlauf ist für alle, die mit einer Gruppe laufen, trinken und Spaß haben wollen. Trinkt ihr Alkohol,
+            so nimmt ihr einen Bierkasten, als Anti-Alkoholiker mit Limo, hälft-hälfte ist möglich. Das Ziel ist, zuerst im Ziel anzukommen 
+            und den Kasten leer getrunken zu haben. Wenn ihr noch keine Leute kennt, so kommt tzdm. Gruppenbildung ist Vorort möglich. Wir 
+            starten am Rewe und dort kann der Kasten besorgt werden, dieser muss selbst gezahlt werden. Der Gewinner bekommt einen Preis.
+            Läufer <br>
+            <ul>
+  <li> 2-3 Personen pro Gruppe
+  <li> 2er Gruppen 0.3L Kasten, 3er Gruppe 0.5L Kasten
+  <li> Strecke: 4.8km
+</ul>",
         ],
         # Spieleabend
         "SP1" => [
@@ -110,10 +122,7 @@ $events = [
             "max_participants" => 120,
             "registration_override" => TRUE,
             "end_of_registration" => mktime('17', '0', '0', '10', '14', '2022'),
-            "text" => "Die Ersti Wanderung<br>
-            Eine Wanderung durch den Schönbuch und den umliegenden Wäldern Tübingens.
-            Melde dich mit deinen Daten unten an, um genaue Informationen zu Treffpunkt und deiner Gruppe zu bekommen.",
-            "info" => "",
+            "text" => "",
         ],
         # Stadtrallye
         "RY" => [
